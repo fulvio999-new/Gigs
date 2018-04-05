@@ -15,12 +15,12 @@ MainView {
     applicationName: 'gigs.fulvio'
     automaticOrientation: true
 
-    width: units.gu(100)
-    height: units.gu(75)
+    //width: units.gu(100)
+    //height: units.gu(75)
 
     /* phone 4.5 */
-    //width: units.gu(50)
-    //height: units.gu(96)
+    width: units.gu(50)
+    height: units.gu(96)
 
     property string appVersion : "1.0"
     property string targetUrl

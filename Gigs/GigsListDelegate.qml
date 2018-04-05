@@ -21,7 +21,7 @@ import "Utility.js" as Utility
             x: 2; y: 2; width: parent.width - x*2; height: parent.height - y*1
             border.color: "black"
             radius: 5
-        }      
+        }
 
         /* This mouse region covers the entire delegate */
         MouseArea {
@@ -79,7 +79,7 @@ import "Utility.js" as Utility
                 }
 
                 Label {
-                    text: i18n.tr("Date")+": "+ eventDate
+                    text: i18n.tr("Date")+" (yyyy-mm-dd) : " + eventDate
                     fontSize: "medium"
                 }
 
