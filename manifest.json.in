@@ -1,0 +1,15 @@
+{
+    "name": "gigs.fulvio",
+    "description": "description of Gigs",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Gigs",
+    "hooks": {
+        "Gigs": {
+            "apparmor": "Gigs/Gigs.apparmor",
+            "desktop":  "Gigs/Gigs.desktop"
+        }
+    },
+    "version": "1.0",
+    "maintainer": "fulvio <fulvio999@mail.com>",
+    "framework" : "ubuntu-sdk-15.04.6"
+}
