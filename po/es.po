@@ -1,0 +1,304 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-05 09:39+0000\n"
+"PO-Revision-Date: 2018-05-04 14:31+0200\n"
+"Last-Translator: advocatux <advocatux@airpost.net>\n"
+"Language-Team: UBports Spanish Team\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /home/fulvio/Gigs/Gigs/DataBaseEraserDialog.qml:14
+msgid "Remove ALL database data ?"
+msgstr "¿Eliminar TODAS las entradas en la base de datos?"
+
+#: /home/fulvio/Gigs/Gigs/DataBaseEraserDialog.qml:14
+msgid "(there is NO restore)"
+msgstr "(NO se podrá recuperar)"
+
+#: /home/fulvio/Gigs/Gigs/DataBaseEraserDialog.qml:40
+#: /home/fulvio/Gigs/Gigs/EditSavedGigsUrl.qml:31
+#: /home/fulvio/Gigs/Gigs/EditSavedGigsUrl.qml:46
+#: /home/fulvio/Gigs/Gigs/EditSavedGigsUrl.qml:80
+#: /home/fulvio/Gigs/Gigs/Main.qml:49 /home/fulvio/Gigs/Gigs/Main.qml:199
+#: /home/fulvio/Gigs/Gigs/Main.qml:266
+#: /home/fulvio/Gigs/Gigs/OperationResult.qml:29
+#: /home/fulvio/Gigs/Gigs/ProductInfo.qml:14
+msgid "Close"
+msgstr "Cerrar"
+
+#: /home/fulvio/Gigs/Gigs/DataBaseEraserDialog.qml:47
+#: /home/fulvio/Gigs/Gigs/EditSavedGigsUrl.qml:86
+#: /home/fulvio/Gigs/Gigs/Main.qml:107
+msgid "Delete"
+msgstr "Borrar"
+
+#: /home/fulvio/Gigs/Gigs/DataBaseEraserDialog.qml:53
+#: /home/fulvio/Gigs/Gigs/EditSavedGigsUrl.qml:94
+msgid "Operation executed successfully"
+msgstr "La operación fue un éxito"
+
+#: /home/fulvio/Gigs/Gigs/EditSavedGigsUrl.qml:27
+#: /home/fulvio/Gigs/Gigs/EditSavedGigsUrl.qml:41
+#: /home/fulvio/Gigs/Gigs/OperationResult.qml:9
+msgid "Operation Result"
+msgstr "Resultado de la operación"
+
+#: /home/fulvio/Gigs/Gigs/EditSavedGigsUrl.qml:28
+msgid "FAILURE: Invalid input"
+msgstr "FALLO: entrada no válida"
+
+#: /home/fulvio/Gigs/Gigs/EditSavedGigsUrl.qml:28
+msgid "(url is correct ?,  don't use https)"
+msgstr "(¿Es correcta la url? No use https)"
+
+#: /home/fulvio/Gigs/Gigs/EditSavedGigsUrl.qml:42
+#: /home/fulvio/Gigs/Gigs/ManageGigsUrl.qml:29
+msgid "SUCCESS: Operation executed"
+msgstr "ÉXITO: operación ejecutada"
+
+#: /home/fulvio/Gigs/Gigs/EditSavedGigsUrl.qml:59
+msgid "Remove selected artist with Gig URL ?"
+msgstr ""
+"¿Eliminar los artistas seleccionados "
+"con una URL de Gig?"
+
+#: /home/fulvio/Gigs/Gigs/EditSavedGigsUrl.qml:59
+msgid "(there is no restore)"
+msgstr "(no se podrá recuperar)"
+
+#: /home/fulvio/Gigs/Gigs/GigsListDelegate.qml:77
+msgid "Place"
+msgstr "Lugar"
+
+#: /home/fulvio/Gigs/Gigs/GigsListDelegate.qml:82
+msgid "Date"
+msgstr "Fecha"
+
+#: /home/fulvio/Gigs/Gigs/GigsListDelegate.qml:87
+msgid "Country"
+msgstr "País"
+
+#: /home/fulvio/Gigs/Gigs/GigsListDelegate.qml:93
+msgid "City"
+msgstr "Ciudad"
+
+#: /home/fulvio/Gigs/Gigs/GigsListDelegate.qml:99
+#: /home/fulvio/Gigs/Gigs/GigsUrlDelegate.qml:82
+msgid "Url"
+msgstr "Url"
+
+#: /home/fulvio/Gigs/Gigs/GigsUrlDelegate.qml:63
+msgid "Artist"
+msgstr "Artista"
+
+#: /home/fulvio/Gigs/Gigs/HelpPage.qml:29
+msgid "This App query"
+msgstr "La consulta de esta aplicación"
+
+#: /home/fulvio/Gigs/Gigs/HelpPage.qml:30
+msgid "to get info about the events of an artist,dj, producer."
+msgstr ""
+"para obtener información acerca de los eventos "
+"de un artista, dj, productor."
+
+#: /home/fulvio/Gigs/Gigs/HelpPage.qml:31
+msgid "Obviously the artist must use that service."
+msgstr "Obviamente el artista debe usar este servicio."
+
+#: /home/fulvio/Gigs/Gigs/HelpPage.qml:32
+msgid "The search gigs url have a fixed format that must be like this:"
+msgstr "La url de búsqueda de gigs tiene que seguir este formato:"
+
+#: /home/fulvio/Gigs/Gigs/HelpPage.qml:33
+msgid "http://gigs.gigatools.com/u/'artistName'.json"
+msgstr "http://gigs.gigatools.com/u/'artistName'.json"
+
+#: /home/fulvio/Gigs/Gigs/HelpPage.qml:34
+msgid "NOTE: Don't use 'https' in the url"
+msgstr "NOTA: no use 'https' en la url"
+
+#: /home/fulvio/Gigs/Gigs/HelpPage.qml:35
+msgid "Where 'artistName' is the ONLY variable part."
+msgstr "Donde 'artistName' es la ÚNICA parte variable."
+
+#: /home/fulvio/Gigs/Gigs/HelpPage.qml:36
+msgid "Is the name/nickname choosen by the artist/singer/dj"
+msgstr "Es el nombre/apodo elegido por el artista/cantante/dj"
+
+#: /home/fulvio/Gigs/Gigs/HelpPage.qml:37
+msgid ""
+"The '.json' suffix communicate at gigatools.com service the data format "
+"wanted"
+msgstr ""
+"El sufijo '.json' indica al servicio de gigatools.com el formato "
+"deseado de los datos"
+
+#: /home/fulvio/Gigs/Gigs/HelpPage.qml:38
+msgid "Where i can find gigs url ?"
+msgstr "¿Dónde puedo encontrar la url para gigs?"
+
+#: /home/fulvio/Gigs/Gigs/HelpPage.qml:39
+msgid "On artist Facebook page, Soundcloud page..."
+msgstr "En la página de Facebook del artista, página en Soundcloud..."
+
+#: /home/fulvio/Gigs/Gigs/HelpPage.qml:40
+msgid ""
+"The 'Artist name' field required by this application is a free name of your "
+"choice."
+msgstr ""
+"El campo 'Artist name' (nombre de artista) exigido por esta aplicación "
+"es un nombre libre de su elección."
+
+#: /home/fulvio/Gigs/Gigs/HelpPage.qml:41
+msgid "The important thing is the gig url (use http urls, NOT https)."
+msgstr ""
+"La cosa más importante es la url de gig (use urls con "
+"http, NO https)."
+
+#: /home/fulvio/Gigs/Gigs/HelpPage.qml:42
+msgid ""
+"To check if gigs url is correct and return data, try it with your browser"
+msgstr ""
+"Para comprobar que la url de gigs es correcta y suministra datos, "
+"pruébela con su navegador"
+
+#: /home/fulvio/Gigs/Gigs/Main.qml:45
+msgid "Warning"
+msgstr "Aviso"
+
+#: /home/fulvio/Gigs/Gigs/Main.qml:46
+msgid "No data found. Url is correct ?"
+msgstr "No se encontraron datos. ¿Es correcta la URL?"
+
+#: /home/fulvio/Gigs/Gigs/Main.qml:95
+msgid "About"
+msgstr "Acerca de"
+
+#: /home/fulvio/Gigs/Gigs/Main.qml:115
+msgid "Settings"
+msgstr "Configuración"
+
+#: /home/fulvio/Gigs/Gigs/Main.qml:123
+msgid "Help"
+msgstr "Ayuda"
+
+#: /home/fulvio/Gigs/Gigs/Main.qml:164
+msgid "Found"
+msgstr "Encontrado"
+
+#: /home/fulvio/Gigs/Gigs/Main.qml:164
+msgid "Artist(s)"
+msgstr "Artista(s)"
+
+#: /home/fulvio/Gigs/Gigs/Main.qml:180
+msgid "Select"
+msgstr "Seleccionar"
+
+#: /home/fulvio/Gigs/Gigs/Main.qml:217
+msgid "Artist Informations"
+msgstr "Información del artista"
+
+#: /home/fulvio/Gigs/Gigs/Main.qml:324
+msgid "Choose Artist"
+msgstr "Elegir artista"
+
+#: /home/fulvio/Gigs/Gigs/Main.qml:334
+msgid "Search"
+msgstr "Buscar"
+
+#: /home/fulvio/Gigs/Gigs/Main.qml:365
+msgid "Filter by Country..."
+msgstr "Filtrar por país..."
+
+#: /home/fulvio/Gigs/Gigs/Main.qml:380
+msgid "Filter"
+msgstr "Filtrar"
+
+#: /home/fulvio/Gigs/Gigs/Main.qml:421
+msgid "Gig(s)"
+msgstr "Gig(s)"
+
+#: /home/fulvio/Gigs/Gigs/Main.qml:426
+msgid "Artist info"
+msgstr "Información del artista"
+
+#: /home/fulvio/Gigs/Gigs/Main.qml:443
+msgid "Manage gigs Url"
+msgstr "Gestionar la Url de gigs"
+
+#: /home/fulvio/Gigs/Gigs/Main.qml:455
+msgid "Edit saved gigs Url"
+msgstr "Editar la Url de gigs guardada"
+
+#: /home/fulvio/Gigs/Gigs/Main.qml:467
+msgid "Help page"
+msgstr "Página de ayuda"
+
+#: /home/fulvio/Gigs/Gigs/ManageGigsUrl.qml:24
+msgid "FAILURE: Invalid input (check the Url)"
+msgstr "FALLO: entrada no válida (compruebe la Url)"
+
+#: /home/fulvio/Gigs/Gigs/ManageGigsUrl.qml:42
+msgid "Add to favourites a new Gigs url"
+msgstr "Añadir a favoritos una nueva url de Gigs"
+
+#: /home/fulvio/Gigs/Gigs/ManageGigsUrl.qml:53
+msgid "Artist Name:"
+msgstr "Nombre de artista:"
+
+#: /home/fulvio/Gigs/Gigs/ManageGigsUrl.qml:70
+msgid "Gigs URL:"
+msgstr "URL de Gigs:"
+
+#: /home/fulvio/Gigs/Gigs/ManageGigsUrl.qml:85
+msgid "Field required"
+msgstr "Campo obligatorio"
+
+#: /home/fulvio/Gigs/Gigs/ManageGigsUrl.qml:85
+msgid "Don't use https in the urls"
+msgstr "No use https en las urls"
+
+#: /home/fulvio/Gigs/Gigs/ManageGigsUrl.qml:92
+msgid "Note: url format must be like"
+msgstr "Nota: el formato de la url debe ser así"
+
+#: /home/fulvio/Gigs/Gigs/ManageGigsUrl.qml:92
+msgid "See application help page for more information"
+msgstr ""
+"Vea la página de ayuda de la aplicación para "
+"más información"
+
+#: /home/fulvio/Gigs/Gigs/ManageGigsUrl.qml:102
+msgid "Save"
+msgstr "Guardar"
+
+#: /home/fulvio/Gigs/Gigs/ManageGigsUrl.qml:124
+msgid "Manage saved"
+msgstr "Gestionar lo guardado"
+
+#: /home/fulvio/Gigs/Gigs/ProductInfo.qml:10
+msgid "Product Info"
+msgstr "Información del producto"
+
+#: /home/fulvio/Gigs/Gigs/ProductInfo.qml:11
+msgid "Unofficial App for gigatools.com"
+msgstr "Aplicación no oficial para gigatools.com"
+
+#: /home/fulvio/Gigs/Gigs/Utility.js:70
+#, qt-format
+msgid "<a href=\"%1\">"
+msgstr "<a href=\"%1\">"
+
+#: /home/fulvio/Gigs/build/Gigs/Gigs.desktop.h:1
+msgid "Gigs"
+msgstr "Gigs" 
