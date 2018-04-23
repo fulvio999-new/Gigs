@@ -79,7 +79,8 @@ import "Utility.js" as Utility
                 }
 
                 Label {
-                    text: i18n.tr("Date")+" (yyyy-mm-dd) : " + eventDate
+                    //text: i18n.tr("Date")+" (yyyy-mm-dd) : " + eventDate
+                    text: i18n.tr("Date")+": " +Qt.formatDateTime(eventDate, "dd MMMM yyyy")
                     fontSize: "medium"
                 }
 

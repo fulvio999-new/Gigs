@@ -1,7 +1,7 @@
 {
     "name": "gigs.fulvio",
     "description": "description of Gigs",
-    "architecture": "@CLICK_ARCH@",
+    "architecture": "all",
     "title": "Gigs",
     "hooks": {
         "Gigs": {
@@ -9,7 +9,7 @@
             "desktop":  "Gigs/Gigs.desktop"
         }
     },
-    "version": "1.0",
+    "version": "1.1",
     "maintainer": "fulvio <fulvio999@mail.com>",
     "framework" : "ubuntu-sdk-15.04.6"
 }

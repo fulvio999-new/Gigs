@@ -9,7 +9,7 @@ import "Storage.js" as Storage
 import "Utility.js" as Utility
 
    /*
-     Display a seved Jenkins url with his Alias and offer the operations to manage it: edit, delete
+     Delegate used to display the saved gigs url for an artist
      NOTE: don't place here other Components, Dialog: they doesn't work. Place them the parent
    */
    Column {
