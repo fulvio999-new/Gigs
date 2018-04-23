@@ -22,7 +22,7 @@ MainView {
     width: units.gu(50)
     height: units.gu(96)
 
-    property string appVersion : "1.0"
+    property string appVersion : "1.1"
     property string targetUrl
 
     /* PopUp with Application info */
