@@ -138,7 +138,7 @@ MainView {
                               iconName: "settings"
                               text: i18n.tr("Settings")
                               onTriggered:{
-                                   pageStack.push(manageGigsUrlPage)
+                                   pageStack.push(Qt.resolvedUrl("ManageGigsUrlPage.qml"))
                                }
                          },
 
@@ -146,7 +146,7 @@ MainView {
                                iconName: "help"
                                text: i18n.tr("Help")
                                onTriggered:{
-                                    pageStack.push(applicationHelpPage)
+                                    pageStack.push(Qt.resolvedUrl("HelpPage.qml"))
                                 }
                           }
                    ]
@@ -428,7 +428,6 @@ MainView {
                      }
                 }
 
-
                 Row{
                     id: gigsFoundRow
                     anchors.horizontalCenter: parent.horizontalCenter
@@ -457,42 +456,6 @@ MainView {
                 }
             }
         }
-
-        //----------------- Manage gigs url -----------------
-        Page {
-              id: manageGigsUrlPage
-              visible: false
-
-               header: PageHeader {
-                   title: i18n.tr("Manage gigs Url")
-               }
-
-               ManageGigsUrl{}
-        }
-
-        //----------------- Edit saved gigs url -----------------
-        Page {
-              id: editSavedGigsUrlPage
-              visible: false
-
-              header: PageHeader {
-                 title: i18n.tr("Edit saved gigs Url")
-              }
-
-              EditSavedGigsUrl{}
-         }
-
-         //----------------- Application help page -----------------
-         Page {
-               id: applicationHelpPage
-               visible: false
-
-               header: PageHeader {
-                    title: i18n.tr("Help page")
-               }
-
-               HelpPage{}
-         }
     }
 
 }

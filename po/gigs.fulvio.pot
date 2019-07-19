@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gigs.fulvio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-19 14:32+0000\n"
+"POT-Creation-Date: 2019-07-19 15:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,106 +25,114 @@ msgstr ""
 msgid "Unofficial App for gigatools.com"
 msgstr ""
 
-#: ../qml/ProductInfo.qml:14 ../qml/OperationResult.qml:29
-#: ../qml/EditSavedGigsUrl.qml:31 ../qml/EditSavedGigsUrl.qml:46
-#: ../qml/EditSavedGigsUrl.qml:75 ../qml/DataBaseEraserDialog.qml:32
+#: ../qml/ProductInfo.qml:14 ../qml/EditSavedGigsUrlPage.qml:40
+#: ../qml/EditSavedGigsUrlPage.qml:55 ../qml/EditSavedGigsUrlPage.qml:84
+#: ../qml/OperationResult.qml:29 ../qml/DataBaseEraserDialog.qml:32
 #: ../qml/Main.qml:73 ../qml/Main.qml:223 ../qml/Main.qml:290
 msgid "Close"
 msgstr ""
 
-#: ../qml/OperationResult.qml:9 ../qml/EditSavedGigsUrl.qml:27
-#: ../qml/EditSavedGigsUrl.qml:41
+#: ../qml/EditSavedGigsUrlPage.qml:18
+msgid "Edit saved gigs Url"
+msgstr ""
+
+#: ../qml/EditSavedGigsUrlPage.qml:36 ../qml/EditSavedGigsUrlPage.qml:50
+#: ../qml/OperationResult.qml:9
 msgid "Operation Result"
 msgstr ""
 
-#: ../qml/HelpPage.qml:29
-msgid "This App query"
+#: ../qml/EditSavedGigsUrlPage.qml:37
+msgid "FAILURE: Invalid input"
 msgstr ""
 
-#: ../qml/HelpPage.qml:30
-msgid "to get info about the events of an artist,dj, producer."
+#: ../qml/EditSavedGigsUrlPage.qml:37
+msgid "(url is correct ?,  don't use https)"
 msgstr ""
 
-#: ../qml/HelpPage.qml:31
-msgid "Obviously the artist must use that service."
+#: ../qml/EditSavedGigsUrlPage.qml:51 ../qml/ManageGigsUrlPage.qml:37
+msgid "SUCCESS: Operation executed"
 msgstr ""
 
-#: ../qml/HelpPage.qml:32
-msgid "The search gigs url have a fixed format that must be like this:"
+#: ../qml/EditSavedGigsUrlPage.qml:68
+msgid "Remove selected artist with Gig URL ?"
 msgstr ""
 
-#: ../qml/HelpPage.qml:33
-msgid "http://gigs.gigatools.com/u/'artistName'.json"
+#: ../qml/EditSavedGigsUrlPage.qml:68
+msgid "(there is no restore)"
 msgstr ""
 
-#: ../qml/HelpPage.qml:34
-msgid "NOTE: Don't use 'https' in the url"
+#: ../qml/EditSavedGigsUrlPage.qml:91 ../qml/DataBaseEraserDialog.qml:39
+#: ../qml/Main.qml:131
+msgid "Delete"
+msgstr ""
+
+#: ../qml/EditSavedGigsUrlPage.qml:99 ../qml/DataBaseEraserDialog.qml:48
+msgid "Operation executed successfully"
+msgstr ""
+
+#: ../qml/HelpPage.qml:12
+msgid "Help page"
 msgstr ""
 
 #: ../qml/HelpPage.qml:35
-msgid "Where 'artistName' is the ONLY variable part."
+msgid "This App query"
 msgstr ""
 
 #: ../qml/HelpPage.qml:36
-msgid "Is the name/nickname choosen by the artist/singer/dj"
+msgid "to get info about the events of an artist,dj, producer."
 msgstr ""
 
 #: ../qml/HelpPage.qml:37
+msgid "Obviously the artist must use that service."
+msgstr ""
+
+#: ../qml/HelpPage.qml:38
+msgid "The search gigs url have a fixed format that must be like this:"
+msgstr ""
+
+#: ../qml/HelpPage.qml:39
+msgid "http://gigs.gigatools.com/u/'artistName'.json"
+msgstr ""
+
+#: ../qml/HelpPage.qml:40
+msgid "NOTE: Don't use 'https' in the url"
+msgstr ""
+
+#: ../qml/HelpPage.qml:41
+msgid "Where 'artistName' is the ONLY variable part."
+msgstr ""
+
+#: ../qml/HelpPage.qml:42
+msgid "Is the name/nickname choosen by the artist/singer/dj"
+msgstr ""
+
+#: ../qml/HelpPage.qml:43
 msgid ""
 "The '.json' suffix communicate at gigatools.com service the data format "
 "wanted"
 msgstr ""
 
-#: ../qml/HelpPage.qml:38
+#: ../qml/HelpPage.qml:44
 msgid "Where i can find gigs url ?"
 msgstr ""
 
-#: ../qml/HelpPage.qml:39
+#: ../qml/HelpPage.qml:45
 msgid "On artist Facebook page, Soundcloud page..."
 msgstr ""
 
-#: ../qml/HelpPage.qml:40
+#: ../qml/HelpPage.qml:46
 msgid ""
 "The 'Artist name' field required by this application is a free name of your "
 "choice."
 msgstr ""
 
-#: ../qml/HelpPage.qml:41
+#: ../qml/HelpPage.qml:47
 msgid "The important thing is the gig url (use http urls, NOT https)."
 msgstr ""
 
-#: ../qml/HelpPage.qml:42
+#: ../qml/HelpPage.qml:48
 msgid ""
 "To check if gigs url is correct and return data, try it with your browser"
-msgstr ""
-
-#: ../qml/EditSavedGigsUrl.qml:28
-msgid "FAILURE: Invalid input"
-msgstr ""
-
-#: ../qml/EditSavedGigsUrl.qml:28
-msgid "(url is correct ?,  don't use https)"
-msgstr ""
-
-#: ../qml/EditSavedGigsUrl.qml:42 ../qml/ManageGigsUrl.qml:29
-msgid "SUCCESS: Operation executed"
-msgstr ""
-
-#: ../qml/EditSavedGigsUrl.qml:59
-msgid "Remove selected artist with Gig URL ?"
-msgstr ""
-
-#: ../qml/EditSavedGigsUrl.qml:59
-msgid "(there is no restore)"
-msgstr ""
-
-#: ../qml/EditSavedGigsUrl.qml:82 ../qml/DataBaseEraserDialog.qml:39
-#: ../qml/Main.qml:131
-msgid "Delete"
-msgstr ""
-
-#: ../qml/EditSavedGigsUrl.qml:90 ../qml/DataBaseEraserDialog.qml:48
-msgid "Operation executed successfully"
 msgstr ""
 
 #: ../qml/DataBaseEraserDialog.qml:15
@@ -153,6 +161,54 @@ msgstr ""
 
 #: ../qml/GigsListDelegate.qml:102 ../qml/GigsUrlDelegate.qml:84
 msgid "Url"
+msgstr ""
+
+#: ../qml/ManageGigsUrlPage.qml:20
+msgid "Manage gigs Url"
+msgstr ""
+
+#: ../qml/ManageGigsUrlPage.qml:32
+msgid "FAILURE: Invalid input (check the Url)"
+msgstr ""
+
+#: ../qml/ManageGigsUrlPage.qml:50
+msgid "Add to favourites a new Gigs url"
+msgstr ""
+
+#: ../qml/ManageGigsUrlPage.qml:61
+msgid "Artist Name:"
+msgstr ""
+
+#: ../qml/ManageGigsUrlPage.qml:78
+msgid "Gigs URL:"
+msgstr ""
+
+#: ../qml/ManageGigsUrlPage.qml:93
+msgid "Field required"
+msgstr ""
+
+#: ../qml/ManageGigsUrlPage.qml:93
+msgid "Don't use https in the urls"
+msgstr ""
+
+#: ../qml/ManageGigsUrlPage.qml:100
+msgid "Note: url format must be like"
+msgstr ""
+
+#: ../qml/ManageGigsUrlPage.qml:100
+msgid "See application help page for more information"
+msgstr ""
+
+#: ../qml/ManageGigsUrlPage.qml:110
+msgid "Add"
+msgstr ""
+
+#: ../qml/ManageGigsUrlPage.qml:132
+msgid "Insert Default"
+msgstr ""
+
+#: ../qml/ManageGigsUrlPage.qml:147
+msgid "Manage saved"
 msgstr ""
 
 #: ../qml/Main.qml:69
@@ -211,72 +267,16 @@ msgstr ""
 msgid "Filter"
 msgstr ""
 
-#: ../qml/Main.qml:445
+#: ../qml/Main.qml:444
 msgid "Gig(s)"
 msgstr ""
 
-#: ../qml/Main.qml:450
+#: ../qml/Main.qml:449
 msgid "Artist info"
-msgstr ""
-
-#: ../qml/Main.qml:467
-msgid "Manage gigs Url"
-msgstr ""
-
-#: ../qml/Main.qml:479
-msgid "Edit saved gigs Url"
-msgstr ""
-
-#: ../qml/Main.qml:491
-msgid "Help page"
 msgstr ""
 
 #: ../qml/GigsUrlDelegate.qml:65
 msgid "Artist"
-msgstr ""
-
-#: ../qml/ManageGigsUrl.qml:24
-msgid "FAILURE: Invalid input (check the Url)"
-msgstr ""
-
-#: ../qml/ManageGigsUrl.qml:42
-msgid "Add to favourites a new Gigs url"
-msgstr ""
-
-#: ../qml/ManageGigsUrl.qml:53
-msgid "Artist Name:"
-msgstr ""
-
-#: ../qml/ManageGigsUrl.qml:70
-msgid "Gigs URL:"
-msgstr ""
-
-#: ../qml/ManageGigsUrl.qml:85
-msgid "Field required"
-msgstr ""
-
-#: ../qml/ManageGigsUrl.qml:85
-msgid "Don't use https in the urls"
-msgstr ""
-
-#: ../qml/ManageGigsUrl.qml:92
-msgid "Note: url format must be like"
-msgstr ""
-
-#: ../qml/ManageGigsUrl.qml:92
-msgid "See application help page for more information"
-msgstr ""
-
-#: ../qml/ManageGigsUrl.qml:102
-msgid "Add"
-msgstr ""
-
-#: ../qml/ManageGigsUrl.qml:124
-msgid "Insert Default"
-msgstr ""
-
-#: ../qml/ManageGigsUrl.qml:138
-msgid "Manage saved"
 msgstr ""
 
 #: ../qml/js/Utility.js:70

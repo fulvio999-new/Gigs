@@ -9,6 +9,15 @@ import Ubuntu.Components.ListItems 1.3 as ListItem
 
 import "./js/Storage.js" as Storage
 
+
+Page {
+      id: editSavedGigsUrlPage
+      visible: false
+
+      header: PageHeader {
+         title: i18n.tr("Edit saved gigs Url")
+      }
+
 /*
   Content of the editing page for saved Artist Gigs url
 
@@ -66,7 +75,7 @@ Column{
                    }
                 }
 
-                Row{                   
+                Row{
                       anchors.horizontalCenter: dataBaseEraserDialog.Center
                       spacing: units.gu(1)
 
@@ -120,5 +129,7 @@ Column{
         flickableItem: savedGigsUrlListView
         align: Qt.AlignTrailing
     }
+
+}
 
 }

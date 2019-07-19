@@ -12,6 +12,14 @@ import "./js/Storage.js" as Storage
 import "./js/Utility.js" as Utility
 
 
+Page {
+      id: manageGigsUrlPage
+      visible: false
+
+       header: PageHeader {
+           title: i18n.tr("Manage gigs Url")
+       }
+
 Column{
     id: appConfigurationTablet
 
@@ -128,6 +136,7 @@ Column{
                   Storage.insertDefaultArtistUrl();
                   settings.defaultDataImported = true
                }
+
                PopupUtils.open(operationSuccessDialog);
             }
         }
@@ -139,11 +148,10 @@ Column{
             onClicked: {
                Storage.loadAllSavedGigsUrl();
 
-               pageStack.push(editSavedGigsUrlPage);
+               pageStack.push(Qt.resolvedUrl("EditSavedGigsUrlPage.qml"));
             }
         }
-   }
-
-
+     }
+  }
 
 }

@@ -4,7 +4,13 @@ import Ubuntu.Components.Popups 1.3
 import Ubuntu.Components.Pickers 1.3
 import Ubuntu.Layouts 1.0
 
+Page {
+      id: applicationHelpPage
+      visible: false
 
+      header: PageHeader {
+           title: i18n.tr("Help page")
+      }
 
 /*
   Application help page
@@ -41,5 +47,6 @@ Column{
                            "<br/>"+i18n.tr("The important thing is the gig url (use http urls, NOT https).")+
                            "<br/>"+i18n.tr("To check if gigs url is correct and return data, try it with your browser")
       }
-
+  }
+  
 }
