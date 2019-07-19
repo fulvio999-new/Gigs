@@ -1,7 +1,7 @@
 [Desktop Entry]
-_Name=Gigs
-Exec=qmlscene %U Gigs/Main.qml
-Icon=Gigs/Gigs.png
+_Name=gigs
+Exec=qmlscene qml/Main.qml
+Icon=assets/Gigs.png
 Terminal=false
 Type=Application
 X-Ubuntu-Touch=true
