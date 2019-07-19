@@ -5,8 +5,8 @@ import Ubuntu.Components.Popups 1.3
 import Ubuntu.Components.Pickers 1.3
 
 import QtQuick.LocalStorage 2.0
-import "Storage.js" as Storage
-import "Utility.js" as Utility
+import "./js/Storage.js" as Storage
+import "./js/Utility.js" as Utility
 
    /*
      Delegate used to display the saved gigs url for an artist
@@ -23,7 +23,9 @@ import "Utility.js" as Utility
         Rectangle {
             id: background
             x: 2; y: 2; width: parent.width - x*2; height: parent.height - y*1
-            border.color: "grey"
+            /* to get the background color of the curreunt theme. Necessary if default theme is not used */
+            color: theme.palette.normal.background
+            border.color: "black"
             radius: 5
         }
 

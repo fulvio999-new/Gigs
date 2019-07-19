@@ -3,7 +3,7 @@ import Ubuntu.Components 1.3
 import Ubuntu.Components.Popups 1.3
 import Ubuntu.Components.Pickers 1.3
 
-import "Utility.js" as Utility
+import "./js/Utility.js" as Utility
 
     /*
        Delegate component used to display Gig information (country, date....)
@@ -19,6 +19,8 @@ import "Utility.js" as Utility
         Rectangle {
             id: background
             x: 2; y: 2; width: parent.width - x*2; height: parent.height - y*1
+            /* to get the background color of the curreunt theme. Necessary if default theme is not used */
+            color: theme.palette.normal.background
             border.color: "black"
             radius: 5
         }
@@ -56,7 +58,7 @@ import "Utility.js" as Utility
 
                     Image {
                         id: lengthImage
-                        source: "gigEvent.png"
+                        source: Qt.resolvedUrl("./images/gigEvent.png")
                         anchors.horizontalCenter: parent.horizontalCenter
                         anchors.verticalCenter: parent.verticalCenter
                         width: parent.width * 0.7

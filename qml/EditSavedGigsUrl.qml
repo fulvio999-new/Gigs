@@ -7,7 +7,7 @@ import Ubuntu.Layouts 1.0
 import QtQuick.LocalStorage 2.0
 import Ubuntu.Components.ListItems 1.3 as ListItem
 
-import "Storage.js" as Storage
+import "./js/Storage.js" as Storage
 
 /*
   Content of the editing page for saved Artist Gigs url
@@ -16,7 +16,7 @@ import "Storage.js" as Storage
 Column{
     id: manageSavedGigsUrl
     anchors.fill: parent
-    width: editSavedGigsUrlPage.width
+    //width: editSavedGigsUrlPage.width
 
     spacing: units.gu(3.5)
 
@@ -55,57 +55,44 @@ Column{
         id: confirmDeleteUrlComponent
 
         Dialog {
-            id: confirmDeleteUrlDialog
-            text: "<b>"+i18n.tr("Remove selected artist with Gig URL ?")+ "<br/>"+i18n.tr("(there is no restore)")+"</b>"
+                id: dataBaseEraserDialog
+                text: "<b>"+i18n.tr("Remove selected artist with Gig URL ?")+ "<br/>"+i18n.tr("(there is no restore)")+"</b>"
 
-            Rectangle {
-                width: gigsUrlListDelegate.width;
-                height: 50
-                Item{
-                    Column{
-                        spacing: units.gu(1)
-
-                        Row{
-                            spacing: units.gu(1)
-
-                            /* placeholder */
-                            Rectangle {
-                                color: "transparent"
-                                width: units.gu(3)
-                                height: units.gu(3)
-                            }
-
-                            Button {
-                                id: closeButton
-                                text: i18n.tr("Close")
-                                onClicked: PopupUtils.close(confirmDeleteUrlDialog)
-                            }
-
-                            Button {
-                                id: importButton
-                                text: i18n.tr("Delete")
-                                color: UbuntuColors.orange
-                                onClicked: {
-
-                                    /* 'id' is a field loaded from the database but not shown in the UI */
-                                    var gigsUrlId = savedGigsUrlListModel.get(savedGigsUrlListView.currentIndex).id;
-                                    Storage.deleteGigsUrl(gigsUrlId);
-
-                                    deleteOperationResult.text = i18n.tr("Operation executed successfully")
-                                    Storage.loadAllSavedGigsUrl(); //refresh
-                                }
-                            }
-                        }
-
-                        Row{
-                            Label{
-                                id: deleteOperationResult
-                            }
-                        }
-                    }
+                Row{
+                   anchors.horizontalCenter: parent.horizontalCenter
+                   Label{
+                        id: deleteOperationResult
+                        text: " "
+                   }
                 }
+
+                Row{                   
+                      anchors.horizontalCenter: dataBaseEraserDialog.Center
+                      spacing: units.gu(1)
+
+                      Button {
+                            id: closeButton
+                            text: i18n.tr("Close")
+                            width: units.gu(14)
+                            onClicked: PopupUtils.close(dataBaseEraserDialog)
+                      }
+
+                      Button {
+                            id: importButton
+                            text: i18n.tr("Delete")
+                            width: units.gu(14)
+                            color: UbuntuColors.red
+                            onClicked: {
+                              /* 'id' is a field loaded from the database but not shown in the UI */
+                                   var gigsUrlId = savedGigsUrlListModel.get(savedGigsUrlListView.currentIndex).id;
+                                   Storage.deleteGigsUrl(gigsUrlId);
+
+                                   deleteOperationResult.text = i18n.tr("Operation executed successfully")
+                                   Storage.loadAllSavedGigsUrl(); //refresh
+                            }
+                        }
+                  }
             }
-        }
     }
 
 

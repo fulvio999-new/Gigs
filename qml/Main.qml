@@ -5,9 +5,10 @@ import Ubuntu.Components.Popups 1.3
 
 import QtQuick.LocalStorage 2.0
 
-import "RestClient.js" as RestClient
-import "Storage.js" as Storage
-import "Utility.js" as Utility
+import "./js/RestClient.js" as RestClient
+import "./js/Storage.js" as Storage
+import "./js/Utility.js" as Utility
+
 
 MainView {
     id: root
@@ -15,12 +16,35 @@ MainView {
     applicationName: 'gigs.fulvio'
     automaticOrientation: true
 
-    //width: units.gu(100)
-    //height: units.gu(75)
+    /* to test themes others then default one */
+    //theme.name: "Ubuntu.Components.Themes.SuruDark"
 
-    /* phone 4.5 */
-    width: units.gu(50)
-    height: units.gu(96)
+    /*------- Tablet (width >= 110) -------- */
+    //vertical
+    //width: units.gu(75)
+    //height: units.gu(111)
+
+    //horizontal (rel)
+    width: units.gu(100)
+    height: units.gu(75)
+
+    //Tablet horizontal
+    //width: units.gu(128)
+    //height: units.gu(80)
+
+    //Tablet vertical
+    //width: units.gu(80)
+    //height: units.gu(128)
+
+    /* ----- phone 4.5 (the smallest one) ---- */
+    //vertical
+    //width: units.gu(50)
+    //height: units.gu(96)
+
+    //horizontal
+    //width: units.gu(96)
+    //height: units.gu(50)
+    /* -------------------------------------- */
 
     property string appVersion : "1.2"
     property string targetUrl
@@ -408,7 +432,7 @@ MainView {
                 Row{
                     id: gigsFoundRow
                     anchors.horizontalCenter: parent.horizontalCenter
-                    spacing: units.gu(10)
+                    spacing: units.gu(9.5)
 
                      ActivityIndicator {
                         id: loadingGigsListActivity

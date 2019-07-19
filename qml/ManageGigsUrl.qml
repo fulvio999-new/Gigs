@@ -8,8 +8,8 @@ import Ubuntu.Layouts 1.0
 import QtQuick.LocalStorage 2.0
 import Ubuntu.Components.ListItems 1.3 as ListItem
 
-import "Storage.js" as Storage
-import "Utility.js" as Utility
+import "./js/Storage.js" as Storage
+import "./js/Utility.js" as Utility
 
 
 Column{
@@ -95,11 +95,12 @@ Column{
 
     Row{
         spacing: units.gu(1)
-        anchors.horizontalCenter: parent.horizontalCenter
+        //anchors.horizontalCenter: parent.horizontalCenter
         Button{
             id: insertNewJenkinsUrlButton
             width: units.gu(15)
-            text: i18n.tr("Save")
+            text: i18n.tr("Add")
+            color: UbuntuColors.green
             onClicked: {
                 if(gigsUrlText.text.length > 0 && artistNameText.text.length > 0 && Utility.isGigsUlrValid(gigsUrlText.text) && Utility.endsWithJson(gigsUrlText.text) )
                 {
@@ -119,6 +120,19 @@ Column{
         }
 
         Button{
+            id:insertDefaultDataButton
+            text: i18n.tr("Insert Default")
+            width: units.gu(15)
+            onClicked: {
+               if(!settings.defaultDataImported) {
+                  Storage.insertDefaultArtistUrl();
+                  settings.defaultDataImported = true
+               }
+               PopupUtils.open(operationSuccessDialog);
+            }
+        }
+
+        Button{
             id: showSavedJenkinsUrlButton
             width: units.gu(15)
             text: i18n.tr("Manage saved")
@@ -129,5 +143,7 @@ Column{
             }
         }
    }
+
+
 
 }

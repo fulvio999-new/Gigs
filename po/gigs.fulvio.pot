@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gigs.fulvio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-19 13:16+0000\n"
+"POT-Creation-Date: 2019-07-19 14:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,8 +27,8 @@ msgstr ""
 
 #: ../qml/ProductInfo.qml:14 ../qml/OperationResult.qml:29
 #: ../qml/EditSavedGigsUrl.qml:31 ../qml/EditSavedGigsUrl.qml:46
-#: ../qml/EditSavedGigsUrl.qml:80 ../qml/DataBaseEraserDialog.qml:40
-#: ../qml/Main.qml:49 ../qml/Main.qml:199 ../qml/Main.qml:266
+#: ../qml/EditSavedGigsUrl.qml:75 ../qml/DataBaseEraserDialog.qml:32
+#: ../qml/Main.qml:73 ../qml/Main.qml:223 ../qml/Main.qml:290
 msgid "Close"
 msgstr ""
 
@@ -118,120 +118,120 @@ msgstr ""
 msgid "(there is no restore)"
 msgstr ""
 
-#: ../qml/EditSavedGigsUrl.qml:86 ../qml/DataBaseEraserDialog.qml:47
-#: ../qml/Main.qml:107
+#: ../qml/EditSavedGigsUrl.qml:82 ../qml/DataBaseEraserDialog.qml:39
+#: ../qml/Main.qml:131
 msgid "Delete"
 msgstr ""
 
-#: ../qml/EditSavedGigsUrl.qml:94 ../qml/DataBaseEraserDialog.qml:53
+#: ../qml/EditSavedGigsUrl.qml:90 ../qml/DataBaseEraserDialog.qml:48
 msgid "Operation executed successfully"
 msgstr ""
 
-#: ../qml/DataBaseEraserDialog.qml:14
+#: ../qml/DataBaseEraserDialog.qml:15
 msgid "Remove ALL database data ?"
 msgstr ""
 
-#: ../qml/DataBaseEraserDialog.qml:14
+#: ../qml/DataBaseEraserDialog.qml:15
 msgid "(there is NO restore)"
 msgstr ""
 
-#: ../qml/GigsListDelegate.qml:77
+#: ../qml/GigsListDelegate.qml:79
 msgid "Place"
 msgstr ""
 
-#: ../qml/GigsListDelegate.qml:83
+#: ../qml/GigsListDelegate.qml:85
 msgid "Date"
 msgstr ""
 
-#: ../qml/GigsListDelegate.qml:88
+#: ../qml/GigsListDelegate.qml:90
 msgid "Country"
 msgstr ""
 
-#: ../qml/GigsListDelegate.qml:94
+#: ../qml/GigsListDelegate.qml:96
 msgid "City"
 msgstr ""
 
-#: ../qml/GigsListDelegate.qml:100 ../qml/GigsUrlDelegate.qml:82
+#: ../qml/GigsListDelegate.qml:102 ../qml/GigsUrlDelegate.qml:84
 msgid "Url"
 msgstr ""
 
-#: ../qml/Main.qml:45
+#: ../qml/Main.qml:69
 msgid "Warning"
 msgstr ""
 
-#: ../qml/Main.qml:46
+#: ../qml/Main.qml:70
 msgid "No data found. Url is correct ?"
 msgstr ""
 
-#: ../qml/Main.qml:87
+#: ../qml/Main.qml:111
 msgid "Gigs"
 msgstr ""
 
-#: ../qml/Main.qml:95
+#: ../qml/Main.qml:119
 msgid "About"
 msgstr ""
 
-#: ../qml/Main.qml:115
+#: ../qml/Main.qml:139
 msgid "Settings"
 msgstr ""
 
-#: ../qml/Main.qml:123
+#: ../qml/Main.qml:147
 msgid "Help"
 msgstr ""
 
-#: ../qml/Main.qml:164
+#: ../qml/Main.qml:188
 msgid "Found"
 msgstr ""
 
-#: ../qml/Main.qml:164
+#: ../qml/Main.qml:188
 msgid "Artist(s)"
 msgstr ""
 
-#: ../qml/Main.qml:180
+#: ../qml/Main.qml:204
 msgid "Select"
 msgstr ""
 
-#: ../qml/Main.qml:217
+#: ../qml/Main.qml:241
 msgid "Artist Informations"
 msgstr ""
 
-#: ../qml/Main.qml:324
+#: ../qml/Main.qml:348
 msgid "Choose Artist"
 msgstr ""
 
-#: ../qml/Main.qml:334
+#: ../qml/Main.qml:358
 msgid "Search"
 msgstr ""
 
-#: ../qml/Main.qml:365
+#: ../qml/Main.qml:389
 msgid "Filter by Country..."
 msgstr ""
 
-#: ../qml/Main.qml:380
+#: ../qml/Main.qml:404
 msgid "Filter"
 msgstr ""
 
-#: ../qml/Main.qml:421
+#: ../qml/Main.qml:445
 msgid "Gig(s)"
 msgstr ""
 
-#: ../qml/Main.qml:426
+#: ../qml/Main.qml:450
 msgid "Artist info"
 msgstr ""
 
-#: ../qml/Main.qml:443
+#: ../qml/Main.qml:467
 msgid "Manage gigs Url"
 msgstr ""
 
-#: ../qml/Main.qml:455
+#: ../qml/Main.qml:479
 msgid "Edit saved gigs Url"
 msgstr ""
 
-#: ../qml/Main.qml:467
+#: ../qml/Main.qml:491
 msgid "Help page"
 msgstr ""
 
-#: ../qml/GigsUrlDelegate.qml:63
+#: ../qml/GigsUrlDelegate.qml:65
 msgid "Artist"
 msgstr ""
 
@@ -268,14 +268,18 @@ msgid "See application help page for more information"
 msgstr ""
 
 #: ../qml/ManageGigsUrl.qml:102
-msgid "Save"
+msgid "Add"
 msgstr ""
 
 #: ../qml/ManageGigsUrl.qml:124
+msgid "Insert Default"
+msgstr ""
+
+#: ../qml/ManageGigsUrl.qml:138
 msgid "Manage saved"
 msgstr ""
 
-#: ../qml/Utility.js:70
+#: ../qml/js/Utility.js:70
 msgid "<a href=\"%1\">"
 msgstr ""
 
