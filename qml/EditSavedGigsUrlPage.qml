@@ -20,7 +20,6 @@ Page {
 
 /*
   Content of the editing page for saved Artist Gigs url
-
 */
 Column{
     id: manageSavedGigsUrl
@@ -92,7 +91,7 @@ Column{
                             width: units.gu(14)
                             color: UbuntuColors.red
                             onClicked: {
-                              /* 'id' is a field loaded from the database but not shown in the UI */
+                                   /* 'id' is a field loaded from the database but not shown in the UI */
                                    var gigsUrlId = savedGigsUrlListModel.get(savedGigsUrlListView.currentIndex).id;
                                    Storage.deleteGigsUrl(gigsUrlId);
 
@@ -130,6 +129,6 @@ Column{
         align: Qt.AlignTrailing
     }
 
-}
+  }
 
 }

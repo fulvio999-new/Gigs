@@ -22,7 +22,7 @@ Function used to manage the application database where are saved GIGA url of you
 
 
  /* Insert default giga urls for some artist: See soundcloud for new artist, url.
-    Note: rest call with httpS url does not work 
+    Note: rest call with httpS url does not work
  */
  function insertDefaultArtistUrl(){
 
@@ -123,4 +123,5 @@ Function used to manage the application database where are saved GIGA url of you
        );
 
        savedGigsUrlListModel.clear();
+       eventListModel.clear();      
  }

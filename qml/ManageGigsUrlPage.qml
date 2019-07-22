@@ -11,7 +11,9 @@ import Ubuntu.Components.ListItems 1.3 as ListItem
 import "./js/Storage.js" as Storage
 import "./js/Utility.js" as Utility
 
-
+/*
+   Page where the user can managed saved Gigs url: add a new gig url, insert default ones or edit saved ones
+*/
 Page {
       id: manageGigsUrlPage
       visible: false
@@ -47,7 +49,7 @@ Column{
     Row{
         id: headerCurrencyRow
         Label{
-           text: "<b>"+i18n.tr("Add to favourites a new Gigs url")+"</b>"
+           text: "<b>"+i18n.tr("Add a new Artist/Dj Gigs url")+"</b>"
         }
     }
 
@@ -90,14 +92,14 @@ Column{
     Row{
         Label {
            id: fieldRequiredLabel
-           text: "* "+i18n.tr("Field required") +i18n.tr("Don't use https in the urls")
+           text: "* "+i18n.tr("Field required")+ " - " +i18n.tr("Don't use https in the urls")
         }
     }
 
     Row{
         Label {
             id: infoLabel
-            text: i18n.tr("Note: url format must be like")+"<br/>"+"http(s)://gigs.gigatools.com/u/<artistName>.json"+"<br/>"+"<br/>"+i18n.tr("See application help page for more information")
+            text: i18n.tr("Note: url format must be like")+"<br/>"+"http(s)://gigs.gigatools.com/u/<artistName>.json"+"<br/>"+"<br/>"+i18n.tr("See MyBike application help page for more information")
         }
     }
 

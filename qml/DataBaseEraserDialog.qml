@@ -42,6 +42,9 @@ import "./js/Storage.js" as Storage
                      onClicked: {
                         Storage.deleteAllGigsUrl();
                         Storage.loadAllSavedGigsUrl();
+
+                        chooseArtistButton.text = i18n.tr("Choose Artist");
+
                         /* to allow the import of default data again */
                         settings.defaultDataImported = false;
                         deleteOperationResult.color = UbuntuColors.green;

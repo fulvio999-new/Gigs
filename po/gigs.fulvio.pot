@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gigs.fulvio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-22 08:44+0000\n"
+"POT-Creation-Date: 2019-07-22 10:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,8 +25,8 @@ msgstr ""
 msgid "Unofficial App for gigatools.com"
 msgstr ""
 
-#: ../qml/ProductInfo.qml:14 ../qml/EditSavedGigsUrlPage.qml:40
-#: ../qml/EditSavedGigsUrlPage.qml:55 ../qml/EditSavedGigsUrlPage.qml:84
+#: ../qml/ProductInfo.qml:14 ../qml/EditSavedGigsUrlPage.qml:39
+#: ../qml/EditSavedGigsUrlPage.qml:54 ../qml/EditSavedGigsUrlPage.qml:83
 #: ../qml/OperationResult.qml:29 ../qml/DataBaseEraserDialog.qml:32
 #: ../qml/Main.qml:73 ../qml/Main.qml:223 ../qml/Main.qml:290
 msgid "Close"
@@ -36,37 +36,37 @@ msgstr ""
 msgid "Edit saved gigs Url"
 msgstr ""
 
-#: ../qml/EditSavedGigsUrlPage.qml:36 ../qml/EditSavedGigsUrlPage.qml:50
+#: ../qml/EditSavedGigsUrlPage.qml:35 ../qml/EditSavedGigsUrlPage.qml:49
 #: ../qml/OperationResult.qml:9
 msgid "Operation Result"
 msgstr ""
 
-#: ../qml/EditSavedGigsUrlPage.qml:37
+#: ../qml/EditSavedGigsUrlPage.qml:36
 msgid "FAILURE: Invalid input"
 msgstr ""
 
-#: ../qml/EditSavedGigsUrlPage.qml:37
+#: ../qml/EditSavedGigsUrlPage.qml:36
 msgid "(url is correct ?,  don't use https)"
 msgstr ""
 
-#: ../qml/EditSavedGigsUrlPage.qml:51 ../qml/ManageGigsUrlPage.qml:37
+#: ../qml/EditSavedGigsUrlPage.qml:50 ../qml/ManageGigsUrlPage.qml:39
 msgid "SUCCESS: Operation executed"
 msgstr ""
 
-#: ../qml/EditSavedGigsUrlPage.qml:68
+#: ../qml/EditSavedGigsUrlPage.qml:67
 msgid "Remove selected artist with Gig URL ?"
 msgstr ""
 
-#: ../qml/EditSavedGigsUrlPage.qml:68
+#: ../qml/EditSavedGigsUrlPage.qml:67
 msgid "(there is no restore)"
 msgstr ""
 
-#: ../qml/EditSavedGigsUrlPage.qml:91 ../qml/DataBaseEraserDialog.qml:39
+#: ../qml/EditSavedGigsUrlPage.qml:90 ../qml/DataBaseEraserDialog.qml:39
 #: ../qml/Main.qml:131
 msgid "Delete"
 msgstr ""
 
-#: ../qml/EditSavedGigsUrlPage.qml:99 ../qml/DataBaseEraserDialog.qml:48
+#: ../qml/EditSavedGigsUrlPage.qml:98 ../qml/DataBaseEraserDialog.qml:51
 msgid "Operation executed successfully"
 msgstr ""
 
@@ -143,6 +143,10 @@ msgstr ""
 msgid "(there is NO restore)"
 msgstr ""
 
+#: ../qml/DataBaseEraserDialog.qml:46 ../qml/Main.qml:348
+msgid "Choose Artist"
+msgstr ""
+
 #: ../qml/GigsListDelegate.qml:79
 msgid "Place"
 msgstr ""
@@ -163,51 +167,51 @@ msgstr ""
 msgid "Url"
 msgstr ""
 
-#: ../qml/ManageGigsUrlPage.qml:20
+#: ../qml/ManageGigsUrlPage.qml:22
 msgid "Manage gigs Url"
 msgstr ""
 
-#: ../qml/ManageGigsUrlPage.qml:32
+#: ../qml/ManageGigsUrlPage.qml:34
 msgid "FAILURE: Invalid input (check the Url)"
 msgstr ""
 
-#: ../qml/ManageGigsUrlPage.qml:50
-msgid "Add to favourites a new Gigs url"
+#: ../qml/ManageGigsUrlPage.qml:52
+msgid "Add a new Artist/Dj Gigs url"
 msgstr ""
 
-#: ../qml/ManageGigsUrlPage.qml:61
+#: ../qml/ManageGigsUrlPage.qml:63
 msgid "Artist Name:"
 msgstr ""
 
-#: ../qml/ManageGigsUrlPage.qml:78
+#: ../qml/ManageGigsUrlPage.qml:80
 msgid "Gigs URL:"
 msgstr ""
 
-#: ../qml/ManageGigsUrlPage.qml:93
+#: ../qml/ManageGigsUrlPage.qml:95
 msgid "Field required"
 msgstr ""
 
-#: ../qml/ManageGigsUrlPage.qml:93
+#: ../qml/ManageGigsUrlPage.qml:95
 msgid "Don't use https in the urls"
 msgstr ""
 
-#: ../qml/ManageGigsUrlPage.qml:100
+#: ../qml/ManageGigsUrlPage.qml:102
 msgid "Note: url format must be like"
 msgstr ""
 
-#: ../qml/ManageGigsUrlPage.qml:100
-msgid "See application help page for more information"
+#: ../qml/ManageGigsUrlPage.qml:102
+msgid "See MyBike application help page for more information"
 msgstr ""
 
-#: ../qml/ManageGigsUrlPage.qml:110
+#: ../qml/ManageGigsUrlPage.qml:112
 msgid "Add"
 msgstr ""
 
-#: ../qml/ManageGigsUrlPage.qml:132
+#: ../qml/ManageGigsUrlPage.qml:134
 msgid "Insert Default"
 msgstr ""
 
-#: ../qml/ManageGigsUrlPage.qml:147
+#: ../qml/ManageGigsUrlPage.qml:149
 msgid "Manage saved"
 msgstr ""
 
@@ -249,10 +253,6 @@ msgstr ""
 
 #: ../qml/Main.qml:241
 msgid "Artist Informations"
-msgstr ""
-
-#: ../qml/Main.qml:348
-msgid "Choose Artist"
 msgstr ""
 
 #: ../qml/Main.qml:358
