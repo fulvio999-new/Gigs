@@ -1,0 +1,292 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gigs.fulvio package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gigs.fulvio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-22 11:51+0000\n"
+"PO-Revision-Date: 2019-07-22 20:47+0000\n"
+"Last-Translator: Anne017 <anneonyme017@openmailbox.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/ProductInfo.qml:10
+msgid "Product Info"
+msgstr "Informations sur le produit"
+
+#: ../qml/ProductInfo.qml:11
+msgid "Unofficial App for gigatools.com"
+msgstr "Application non officielle pour gigatools.com"
+
+#: ../qml/ProductInfo.qml:14 ../qml/EditSavedGigsUrlPage.qml:39
+#: ../qml/EditSavedGigsUrlPage.qml:54 ../qml/EditSavedGigsUrlPage.qml:83
+#: ../qml/OperationResult.qml:29 ../qml/DataBaseEraserDialog.qml:32
+#: ../qml/Main.qml:73 ../qml/Main.qml:223 ../qml/Main.qml:290
+msgid "Close"
+msgstr "Fermer"
+
+#: ../qml/EditSavedGigsUrlPage.qml:18
+msgid "Edit saved gigs Url"
+msgstr "Modifier les liens des concerts enregistrés"
+
+#: ../qml/EditSavedGigsUrlPage.qml:35 ../qml/EditSavedGigsUrlPage.qml:49
+#: ../qml/OperationResult.qml:9
+msgid "Operation Result"
+msgstr "Résultat de l'opération"
+
+#: ../qml/EditSavedGigsUrlPage.qml:36
+msgid "FAILURE: Invalid input"
+msgstr "ÉCHEC : saisie incorrecte"
+
+#: ../qml/EditSavedGigsUrlPage.qml:36
+msgid "(url is correct ?,  don't use https)"
+msgstr "(le lien est-il correct ?, n'utilisez pas https)"
+
+#: ../qml/EditSavedGigsUrlPage.qml:50 ../qml/ManageGigsUrlPage.qml:39
+msgid "SUCCESS: Operation executed"
+msgstr "RÉUSSITE : opération exécutée"
+
+#: ../qml/EditSavedGigsUrlPage.qml:67
+msgid "Remove selected artist with Gig URL ?"
+msgstr "Supprimer l'artiste sélectionné avec le lien du concert ?"
+
+#: ../qml/EditSavedGigsUrlPage.qml:67
+msgid "(there is no restore)"
+msgstr "(restauration impossible)"
+
+#: ../qml/EditSavedGigsUrlPage.qml:90 ../qml/DataBaseEraserDialog.qml:39
+#: ../qml/Main.qml:131
+msgid "Delete"
+msgstr "Supprimer"
+
+#: ../qml/EditSavedGigsUrlPage.qml:98 ../qml/DataBaseEraserDialog.qml:51
+msgid "Operation executed successfully"
+msgstr "Opération exécutée avec succès"
+
+#: ../qml/HelpPage.qml:12
+msgid "Help page"
+msgstr "Page d'aide"
+
+#: ../qml/HelpPage.qml:35
+msgid "This App query"
+msgstr "Cette application passe par"
+
+#: ../qml/HelpPage.qml:36
+msgid "to get info about the events of an artist,dj, producer."
+msgstr "pour obtenir des informations sur les événements liés à un artiste, un DJ, un producteur."
+
+#: ../qml/HelpPage.qml:37
+msgid "Obviously the artist must use that service."
+msgstr "L'artiste doit évidemment utiliser ce service."
+
+#: ../qml/HelpPage.qml:38
+msgid "The search gigs url have a fixed format that must be like this:"
+msgstr "Le lien de recherche de concerts doit avoir un format fixe qui doit ressembler à :"
+
+#: ../qml/HelpPage.qml:39
+msgid "http://gigs.gigatools.com/u/'artistName'.json"
+msgstr "http://gigs.gigatools.com/u/NomDArtiste.json"
+
+#: ../qml/HelpPage.qml:40
+msgid "NOTE: Don't use 'https' in the url"
+msgstr "NOTE : n'utilisez pas « https » dans le lien"
+
+#: ../qml/HelpPage.qml:41
+msgid "Where 'artistName' is the ONLY variable part."
+msgstr "Où « NomDArtiste » est la SEULE partie à modifier."
+
+#: ../qml/HelpPage.qml:42
+msgid "Is the name/nickname choosen by the artist/singer/dj"
+msgstr "Est le nom/surnom choisi par l'artiste/chanteur/DJ"
+
+#: ../qml/HelpPage.qml:43
+msgid ""
+"The '.json' suffix communicate at gigatools.com service the data format "
+"wanted"
+msgstr ""
+"Le suffixe « .json » communique au service gigatools.com le format de données "
+"désiré"
+
+#: ../qml/HelpPage.qml:44
+msgid "Where i can find gigs url ?"
+msgstr "Où puis-je trouver des liens de concerts ?"
+
+#: ../qml/HelpPage.qml:45
+msgid "On artist Facebook page, Soundcloud page..."
+msgstr "Sur la page Facebook de l'artiste, sa page SoundCloud, etc."
+
+#: ../qml/HelpPage.qml:46
+msgid ""
+"The 'Artist name' field required by this application is a free name of your "
+"choice."
+msgstr ""
+"Le champ « Nom de l'artiste » obligatoire pour cette application est un nom libre de votre "
+"choix."
+
+#: ../qml/HelpPage.qml:47
+msgid "The important thing is the gig url (use http urls, NOT https)."
+msgstr "La partie la plus importante est le lien du concert (utilisez des liens http, PAS https)."
+
+#: ../qml/HelpPage.qml:48
+msgid ""
+"To check if gigs url is correct and return data, try it with your browser"
+msgstr ""
+"Pour vérifier si le lien de concerts est correct et renvoie des données, essayez-le avec votre navigateur"
+
+#: ../qml/DataBaseEraserDialog.qml:15
+msgid "Remove ALL database data ?"
+msgstr "Supprimer TOUTE la base de données ?"
+
+#: ../qml/DataBaseEraserDialog.qml:15
+msgid "(there is NO restore)"
+msgstr "(restauration impossible)"
+
+#: ../qml/DataBaseEraserDialog.qml:46 ../qml/Main.qml:348
+msgid "Choose Artist"
+msgstr "Choisissez un artiste"
+
+#: ../qml/GigsListDelegate.qml:79
+msgid "Place"
+msgstr "Lieu"
+
+#: ../qml/GigsListDelegate.qml:85
+msgid "Date"
+msgstr "Date"
+
+#: ../qml/GigsListDelegate.qml:90
+msgid "Country"
+msgstr "Pays"
+
+#: ../qml/GigsListDelegate.qml:96
+msgid "City"
+msgstr "Ville"
+
+#: ../qml/GigsListDelegate.qml:102 ../qml/GigsUrlDelegate.qml:84
+msgid "Url"
+msgstr "Lien"
+
+#: ../qml/ManageGigsUrlPage.qml:22
+msgid "Manage gigs Url"
+msgstr "Gérer les liens de concerts"
+
+#: ../qml/ManageGigsUrlPage.qml:34
+msgid "FAILURE: Invalid input (check the Url)"
+msgstr "ÉCHEC : saisie incorrecte (vérifiez le lien)"
+
+#: ../qml/ManageGigsUrlPage.qml:52
+msgid "Add a new Artist/Dj Gigs url"
+msgstr "Ajouter un nouveau lien de concerts pour un artiste/DJ"
+
+#: ../qml/ManageGigsUrlPage.qml:63
+msgid "Artist Name:"
+msgstr "Nom de l'artiste :"
+
+#: ../qml/ManageGigsUrlPage.qml:80
+msgid "Gigs URL:"
+msgstr "Lien de concerts :"
+
+#: ../qml/ManageGigsUrlPage.qml:95
+msgid "Field required"
+msgstr "Champ obligatoire"
+
+#: ../qml/ManageGigsUrlPage.qml:95
+msgid "Don't use https in the urls"
+msgstr "N'utilisez pas https dans les liens"
+
+#: ../qml/ManageGigsUrlPage.qml:102
+msgid "Note: url format must be like"
+msgstr "Note : le format du lien doit ressembler à"
+
+#: ../qml/ManageGigsUrlPage.qml:102
+msgid "See MyBike application help page for more information"
+msgstr "Consultez la page d'aide de l'application MyBike pour plus d'informations"
+
+#: ../qml/ManageGigsUrlPage.qml:112
+msgid "Add"
+msgstr "Ajouter"
+
+#: ../qml/ManageGigsUrlPage.qml:134
+msgid "Insert Default"
+msgstr "Insérer par défaut"
+
+#: ../qml/ManageGigsUrlPage.qml:149
+msgid "Manage saved"
+msgstr "Gérer les enregistrements"
+
+#: ../qml/Main.qml:69
+msgid "Warning"
+msgstr "Attention"
+
+#: ../qml/Main.qml:70
+msgid "No data found. Url is correct ?"
+msgstr "Aucune donnée trouvée. Le lien est-il correct ?"
+
+#: ../qml/Main.qml:111
+msgid "Gigs"
+msgstr "Concerts"
+
+#: ../qml/Main.qml:119
+msgid "About"
+msgstr "À propos"
+
+#: ../qml/Main.qml:139
+msgid "Settings"
+msgstr "Paramètres"
+
+#: ../qml/Main.qml:147
+msgid "Help"
+msgstr "Aide"
+
+#: ../qml/Main.qml:188
+msgid "Found"
+msgstr "Trouvé"
+
+#: ../qml/Main.qml:188
+msgid "Artist(s)"
+msgstr "Artiste(s)"
+
+#: ../qml/Main.qml:204
+msgid "Select"
+msgstr "Sélectionner"
+
+#: ../qml/Main.qml:241
+msgid "Artist Informations"
+msgstr "Informations sur l'artiste"
+
+#: ../qml/Main.qml:358
+msgid "Search"
+msgstr "Chercher"
+
+#: ../qml/Main.qml:389
+msgid "Filter by Country..."
+msgstr "Filtrer par pays..."
+
+#: ../qml/Main.qml:404
+msgid "Filter"
+msgstr "Filtrer"
+
+#: ../qml/Main.qml:444
+msgid "Gig(s)"
+msgstr "Concert(s)"
+
+#: ../qml/Main.qml:449
+msgid "Artist info"
+msgstr "Informations sur l'artiste"
+
+#: ../qml/GigsUrlDelegate.qml:65
+msgid "Artist"
+msgstr "Artiste"
+
+#: ../qml/js/Utility.js:70
+msgid "<a href=\"%1\">"
+msgstr "<a href=\"%1\">"
+
+#: Gigs.desktop.in.h:1
+msgid "gigs"
+msgstr "Concerts"
