@@ -7,15 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-22 11:42+0000\n"
-"PO-Revision-Date: 2019-07-22 13:44+0200\n"
+"POT-Creation-Date: 2019-07-23 08:26+0000\n"
+"PO-Revision-Date: 2019-07-23 11:05+0200\n"
 "Last-Translator: advocatux <advocatux@airpost.net>\n"
 "Language-Team: UBports Spanish Team\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
 
 #: ../qml/ProductInfo.qml:10
 msgid "Product Info"
@@ -43,7 +42,7 @@ msgstr "Resultado de la operación"
 
 #: ../qml/EditSavedGigsUrlPage.qml:36
 msgid "FAILURE: Invalid input"
-msgstr "FALLO: entrada no válida"
+msgstr "ERROR: entrada no válida"
 
 #: ../qml/EditSavedGigsUrlPage.qml:36
 msgid "(url is correct ?,  don't use https)"
@@ -184,7 +183,7 @@ msgstr "FALLO: entrada no válida (compruebe la Url)"
 
 #: ../qml/ManageGigsUrlPage.qml:52
 msgid "Add a new Artist/Dj Gigs url"
-msgstr "Añadir a favoritos una nueva url de Gigs"
+msgstr "Añadir una nueva url de Gigs de artista o DJ"
 
 #: ../qml/ManageGigsUrlPage.qml:63
 msgid "Artist Name:"
@@ -208,11 +207,11 @@ msgstr "Nota: el formato de la url debe ser así"
 
 #: ../qml/ManageGigsUrlPage.qml:102
 msgid "See MyBike application help page for more information"
-msgstr "Vea la página de ayuda de la aplicación para más información"
+msgstr "Vea la página de ayuda de la aplicación MyBike para más información"
 
 #: ../qml/ManageGigsUrlPage.qml:112
 msgid "Add"
-msgstr "añadir"
+msgstr "Añadir"
 
 #: ../qml/ManageGigsUrlPage.qml:134
 msgid "Insert Default"
@@ -293,6 +292,3 @@ msgstr "<a href=\"%1\">"
 #: Gigs.desktop.in.h:1
 msgid "gigs"
 msgstr "gigs"
-
-#~ msgid "Save"
-#~ msgstr "Guardar"
