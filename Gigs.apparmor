@@ -1,4 +1,8 @@
 {
-    "policy_groups": [],
+    "policy_groups": [
+       "content_exchange",
+       "webview",
+       "networking"
+    ],
     "policy_version": 16.04
 }
