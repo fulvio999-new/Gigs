@@ -9,7 +9,7 @@
             "desktop":  "Gigs.desktop"
         }
     },
-    "version": "1.2.3",
+    "version": "1.2.4",
     "maintainer": "fulvio <fulvio999@gmail.com>",
     "framework" : "ubuntu-sdk-16.04"
 }
