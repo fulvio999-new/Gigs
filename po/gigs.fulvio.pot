@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gigs.fulvio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-07 10:14+0000\n"
+"POT-Creation-Date: 2020-08-11 14:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,59 +16,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: ../qml/ProductInfo.qml:10
-msgid "Product Info"
-msgstr ""
-
-#: ../qml/ProductInfo.qml:11
-msgid "Unofficial App for gigatools.com"
-msgstr ""
-
-#: ../qml/ProductInfo.qml:14 ../qml/EditSavedGigsUrlPage.qml:39
-#: ../qml/EditSavedGigsUrlPage.qml:54 ../qml/EditSavedGigsUrlPage.qml:83
-#: ../qml/OperationResult.qml:29 ../qml/DataBaseEraserDialog.qml:32
-#: ../qml/Main.qml:73 ../qml/Main.qml:223 ../qml/Main.qml:290
-msgid "Close"
-msgstr ""
-
-#: ../qml/EditSavedGigsUrlPage.qml:18
-msgid "Edit saved gigs Url"
-msgstr ""
-
-#: ../qml/EditSavedGigsUrlPage.qml:35 ../qml/EditSavedGigsUrlPage.qml:49
-#: ../qml/OperationResult.qml:9
-msgid "Operation Result"
-msgstr ""
-
-#: ../qml/EditSavedGigsUrlPage.qml:36
-msgid "FAILURE: Invalid input"
-msgstr ""
-
-#: ../qml/EditSavedGigsUrlPage.qml:36
-msgid "(url is correct ?,  don't use https)"
-msgstr ""
-
-#: ../qml/EditSavedGigsUrlPage.qml:50 ../qml/ManageGigsUrlPage.qml:39
-msgid "SUCCESS: Operation executed"
-msgstr ""
-
-#: ../qml/EditSavedGigsUrlPage.qml:67
-msgid "Remove selected artist with Gig URL ?"
-msgstr ""
-
-#: ../qml/EditSavedGigsUrlPage.qml:67
-msgid "(there is no restore)"
-msgstr ""
-
-#: ../qml/EditSavedGigsUrlPage.qml:90 ../qml/DataBaseEraserDialog.qml:39
-#: ../qml/Main.qml:131
-msgid "Delete"
-msgstr ""
-
-#: ../qml/EditSavedGigsUrlPage.qml:98 ../qml/DataBaseEraserDialog.qml:51
-msgid "Operation executed successfully"
-msgstr ""
 
 #: ../qml/HelpPage.qml:12
 msgid "Help page"
@@ -135,36 +82,49 @@ msgid ""
 "To check if gigs url is correct and return data, try it with your browser"
 msgstr ""
 
-#: ../qml/DataBaseEraserDialog.qml:15
-msgid "Remove ALL database data ?"
+#: ../qml/EditSavedGigsUrlPage.qml:18
+msgid "Edit saved gigs Url"
 msgstr ""
 
-#: ../qml/DataBaseEraserDialog.qml:15
-msgid "(there is NO restore)"
+#: ../qml/EditSavedGigsUrlPage.qml:35 ../qml/EditSavedGigsUrlPage.qml:49
+#: ../qml/OperationResult.qml:9
+msgid "Operation Result"
 msgstr ""
 
-#: ../qml/DataBaseEraserDialog.qml:46 ../qml/Main.qml:348
-msgid "Choose Artist"
+#: ../qml/EditSavedGigsUrlPage.qml:36
+msgid "FAILURE: Invalid input"
 msgstr ""
 
-#: ../qml/GigsListDelegate.qml:79
-msgid "Place"
+#: ../qml/EditSavedGigsUrlPage.qml:36
+msgid "(url is correct ?,  don't use https)"
 msgstr ""
 
-#: ../qml/GigsListDelegate.qml:85
-msgid "Date"
+#: ../qml/EditSavedGigsUrlPage.qml:39 ../qml/EditSavedGigsUrlPage.qml:54
+#: ../qml/EditSavedGigsUrlPage.qml:83 ../qml/Main.qml:73 ../qml/Main.qml:223
+#: ../qml/Main.qml:290 ../qml/DataBaseEraserDialog.qml:32
+#: ../qml/OperationResult.qml:29 ../qml/ProductInfo.qml:14
+msgid "Close"
 msgstr ""
 
-#: ../qml/GigsListDelegate.qml:90
-msgid "Country"
+#: ../qml/EditSavedGigsUrlPage.qml:50 ../qml/ManageGigsUrlPage.qml:39
+msgid "SUCCESS: Operation executed"
 msgstr ""
 
-#: ../qml/GigsListDelegate.qml:96
-msgid "City"
+#: ../qml/EditSavedGigsUrlPage.qml:67
+msgid "Remove selected artist with Gig URL ?"
 msgstr ""
 
-#: ../qml/GigsListDelegate.qml:102 ../qml/GigsUrlDelegate.qml:84
-msgid "Url"
+#: ../qml/EditSavedGigsUrlPage.qml:67
+msgid "(there is no restore)"
+msgstr ""
+
+#: ../qml/EditSavedGigsUrlPage.qml:90 ../qml/Main.qml:131
+#: ../qml/DataBaseEraserDialog.qml:39
+msgid "Delete"
+msgstr ""
+
+#: ../qml/EditSavedGigsUrlPage.qml:98 ../qml/DataBaseEraserDialog.qml:51
+msgid "Operation executed successfully"
 msgstr ""
 
 #: ../qml/ManageGigsUrlPage.qml:22
@@ -215,6 +175,14 @@ msgstr ""
 msgid "Manage saved"
 msgstr ""
 
+#: ../qml/GigsUrlDelegate.qml:65
+msgid "Artist"
+msgstr ""
+
+#: ../qml/GigsUrlDelegate.qml:84 ../qml/GigsListDelegate.qml:102
+msgid "Url"
+msgstr ""
+
 #: ../qml/Main.qml:69
 msgid "Warning"
 msgstr ""
@@ -255,6 +223,10 @@ msgstr ""
 msgid "Artist Informations"
 msgstr ""
 
+#: ../qml/Main.qml:348 ../qml/DataBaseEraserDialog.qml:46
+msgid "Choose Artist"
+msgstr ""
+
 #: ../qml/Main.qml:358
 msgid "Search"
 msgstr ""
@@ -275,8 +247,36 @@ msgstr ""
 msgid "Artist info"
 msgstr ""
 
-#: ../qml/GigsUrlDelegate.qml:65
-msgid "Artist"
+#: ../qml/DataBaseEraserDialog.qml:15
+msgid "Remove ALL database data ?"
+msgstr ""
+
+#: ../qml/DataBaseEraserDialog.qml:15
+msgid "(there is NO restore)"
+msgstr ""
+
+#: ../qml/GigsListDelegate.qml:79
+msgid "Place"
+msgstr ""
+
+#: ../qml/GigsListDelegate.qml:85
+msgid "Date"
+msgstr ""
+
+#: ../qml/GigsListDelegate.qml:90
+msgid "Country"
+msgstr ""
+
+#: ../qml/GigsListDelegate.qml:96
+msgid "City"
+msgstr ""
+
+#: ../qml/ProductInfo.qml:10
+msgid "Product Info"
+msgstr ""
+
+#: ../qml/ProductInfo.qml:11
+msgid "Unofficial App for gigatools.com"
 msgstr ""
 
 #: ../qml/js/Utility.js:70

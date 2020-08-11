@@ -1,6 +1,6 @@
 {
     "name": "gigs.fulvio",
-    "description": "gftghthy",
+    "description": "unofficial app for gigatools.com",
     "architecture": "@CLICK_ARCH@",
     "title": "gigs",
     "hooks": {
@@ -9,7 +9,7 @@
             "desktop":  "Gigs.desktop"
         }
     },
-    "version": "1.2.4",
+    "version": "1.2.6",
     "maintainer": "fulvio <fulvio999@gmail.com>",
     "framework" : "ubuntu-sdk-16.04"
 }
